@@ -83,7 +83,7 @@ void deleteFirstName(NameList &L, address &P) {//gede b.wiswa pranata-1301160413
     }
 }
 
-void deleteLastName(NameList &L, address &P) {//gede b.wiswa pranata-1301160413
+void deleteLastName(NameList &L, address &P) {//gede b.wiswa pranata - 1301160413
     first(L) = NULL;
     if (first(L) = NULL){
         cout<<"List Empty"<<endl;
@@ -96,20 +96,20 @@ void deleteLastName(NameList &L, address &P) {//gede b.wiswa pranata-1301160413
         next(P) = NULL;
     }
 }
-void deleteAfterName(address Prec, address &P) {//Muhammad Naimullah - 1301160449
+void deleteAfterName(address Prec, address &P) {//gede b.wiswa pranata - 1301160413
     first(L) = NULL;
     P = next(Prec);
     next(Prec) = next(P);
     next(P) = NULL;
 }
 
-void AddGame(NameList &L,string x){//Muhammad Naimullah - 1301160449
+void AddGame(NameList &L,string x){//gede b.wiswa pranata - 1301160413
     address P = allocate(x);
     insertFirstName(L,P);
 
 }
 
-void showName(NameList &L){//Muhammad Naimullah - 1301160449
+void showName(NameList &L){//gede b.wiswa pranata - 1301160413
     if(first(L)!=NULL){
         address P = first(L);
         while (next(P) != first(L)){

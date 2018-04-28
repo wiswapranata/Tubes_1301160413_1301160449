@@ -1,11 +1,11 @@
 #include "gameprice.h"
 
-void createListPrice(PriceList &L) {//Gede B. Wiswa Pranata - 1301160413
+void createListPrice(PriceList &L) {//Muhammad Naimullah - 1301160449
     first(L) = NULL;
     last(L) = NULL;
 }
 
-addressP allocateP(infotype x) {//Gede B. Wiswa Pranata - 1301160413
+addressP allocateP(infotype x) {//Muhammad Naimullah - 1301160449
     addressP P;
     P = new PriceElmList;
     info(P)=x;
@@ -14,11 +14,11 @@ addressP allocateP(infotype x) {//Gede B. Wiswa Pranata - 1301160413
     return P;
 }
 
-void deallocateP(addressP &P) {//Gede B. Wiswa Pranata - 1301160413
+void deallocateP(addressP &P) {//Muhammad Naimullah - 1301160449
     delete P;
 }
 
-void insertFirstPrice(PriceList &L, addressP P) {//Gede B. Wiswa Pranata - 1301160413
+void insertFirstPrice(PriceList &L, addressP P) {//Muhammad Naimullah - 1301160449
     if ((first(L) == NULL) && (last(L) == NULL)){
         first(L) = P;
         last(L) = P;
@@ -29,7 +29,7 @@ void insertFirstPrice(PriceList &L, addressP P) {//Gede B. Wiswa Pranata - 13011
     }
 }
 
-void insertLastPrice(PriceList &L, addressP P) {//Gede B. Wiswa Pranata - 1301160413
+void insertLastPrice(PriceList &L, addressP P) {//Muhammad Naimullah - 1301160449
     if ((first(L) == NULL) && (last(L) == NULL)){
         insertFirstPrice(L,P);
     }else{
@@ -62,7 +62,7 @@ addressP findElmP(PriceList L, infotype x) {//Muhammad Naimullah - 1301160449
 
 }
 
-void deleteFirstPrice(PriceList &L, addressP &P) {//Gede B. Wiswa Pranata - 1301160413
+void deleteFirstPrice(PriceList &L, addressP &P) {//Muhammad Naimullah - 1301160449
     if ((first(L) == NULL) && (last(L) == NULL)){
         cout<<"Empty List"<<endl;
     }else if (first(L) == last(L)){
@@ -76,7 +76,7 @@ void deleteFirstPrice(PriceList &L, addressP &P) {//Gede B. Wiswa Pranata - 1301
     }
 }
 
-void deleteLastPrice(PriceList &L, addressP &P) {//Gede B. Wiswa Pranata - 1301160413
+void deleteLastPrice(PriceList &L, addressP &P) {//Muhammad Naimullah - 1301160449
     if ((first(L) == NULL) && (last(L) == NULL)){
         cout<<"Empty List"<<endl;
     }else if (first(L) == last(L)){
@@ -90,7 +90,7 @@ void deleteLastPrice(PriceList &L, addressP &P) {//Gede B. Wiswa Pranata - 13011
     }
 }
 
-void insertAfterPrice(PriceList &L, addressP Prec, addressP P) {//Gede B. Wiswa Pranata - 1301160413
+void insertAfterPrice(PriceList &L, addressP Prec, addressP P) {//Muhammad Naimullah - 1301160449
     if (Prec == NULL){
         cout<<"Empty Element"<<endl;
     }else if (Prec == last(L)){

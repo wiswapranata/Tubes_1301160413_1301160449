@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1524854308 source:d:\kuliah stuff\tubes\main.cpp
+	<iostream>
+	"gamename.h"
+	"gameprice.h"
+
+1524367360 source:d:\kuliah stuff\tubes\gameprice.cpp
+	"gameprice.h"
+
+1524852610 d:\kuliah stuff\tubes\gameprice.h
+	<iostream>
+
+1524854381 d:\kuliah stuff\tubes\gamename.h
+	<iostream>
+
+1524883842 source:c:\users\damar\downloads\from line\tubesnaim\tubes\main.cpp
+	<iostream>
+	"gamename.h"
+	"gameprice.h"
+
+1524854381 c:\users\damar\downloads\from line\tubesnaim\tubes\gamename.h
+	<iostream>
+
+1524884425 c:\users\damar\downloads\from line\tubesnaim\tubes\gameprice.h
+	<iostream>
+
+1524918202 source:d:\tubes\main.cpp
+	<iostream>
+	"gamename.h"
+	"gameprice.h"
+	"GameCatalogue.h"
+
+1524918202 d:\tubes\gamename.h
+	<iostream>
+
+1524909434 d:\tubes\gameprice.h
+	<iostream>
+
+1524911433 source:d:\tubes\gameprice.cpp
+	"gameprice.h"
+
+1524911000 source:d:\tubes\gamename.cpp
+	"gamename.h"
+
+1524913882 source:d:\tubes\gamecatalogue.cpp
+	"GameCatalogue.h"
+
+1524913882 d:\tubes\gamecatalogue.h
+	"gamename.h"
+	"gameprice.h"
+	<iostream>
+
+1524913882 source:c:\users\wiswa\desktop\tubes_1301160413_1301160449\tubes\gamecatalogue.cpp
+	"GameCatalogue.h"
+
+1524913882 c:\users\wiswa\desktop\tubes_1301160413_1301160449\tubes\gamecatalogue.h
+	"gamename.h"
+	"gameprice.h"
+	<iostream>
+
+1524918202 c:\users\wiswa\desktop\tubes_1301160413_1301160449\tubes\gamename.h
+	<iostream>
+
+1524909434 c:\users\wiswa\desktop\tubes_1301160413_1301160449\tubes\gameprice.h
+	<iostream>
+
+1524918971 source:c:\users\wiswa\desktop\tubes_1301160413_1301160449\tubes\gamename.cpp
+	"gamename.h"
+
+1524911433 source:c:\users\wiswa\desktop\tubes_1301160413_1301160449\tubes\gameprice.cpp
+	"gameprice.h"
+
+1524918202 source:c:\users\wiswa\desktop\tubes_1301160413_1301160449\tubes\main.cpp
+	<iostream>
+	"gamename.h"
+	"gameprice.h"
+	"GameCatalogue.h"
+
